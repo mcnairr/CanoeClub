@@ -3,26 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trips &amp; Photos | Ozark Wilderness Waterways Club</title>
-  <meta name="description" content="Recent trips and club photos from the Ozark Wilderness Waterways Club of Kansas City.">
-  <link rel="icon" href="images/owwc-pin.png">
+  <title>Trips &amp; Schedules | Ozark Wilderness Waterways Club</title>
+  <meta name="description" content="How Ozark Wilderness Waterways Club trips work: the yearly Ozark and Close-to-Home schedules, what to expect on a float, upcoming trips, and paddling resources.">
+  <link rel="canonical" href="https://owwckc.org/trips.html">
+  <meta property="og:title" content="Trips &amp; Schedules | Ozark Wilderness Waterways Club">
+  <meta property="og:description" content="Member-led canoe, kayak, hiking, and bike trips across Missouri, Arkansas, and Kansas.">
+  <meta property="og:image" content="https://owwckc.org/images/group-photo.jpg">
+  <link rel="icon" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--
+  EDITING NOTES (for club members):
+  * The "Coming up" table below is the one thing on this page that needs regular
+    attention. Copy a <tr> row, change the date, name, type, and note, and delete
+    rows once a trip has happened. Rows marked class="tba" are placeholders.
+  * Photo album links: see the "Photos" section comment further down.
+-->
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="index.html">
-        <img src="images/owwc-pin.png" alt="">
-        <span>Ozark Wilderness<br>Waterways Club <small>Kansas City &middot; Est. 1956</small></span>
+        <img src="images/owwc-pin.jpg" alt="" width="46" height="46">
+        <span><span class="name">Ozark Wilderness Waterways Club</span><span class="tag">Kansas City &middot; Est. 1956</span></span>
       </a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="history.html">History</a></li>
-          <li><a href="trips.html" aria-current="page">Trips &amp; Photos</a></li>
+          <li><a href="trips.html" aria-current="page">Trips</a></li>
+          <li><a href="conservation.html">Conservation</a></li>
+          <li><a class="btn" href="index.html#meetings">Visit a meeting</a></li>
         </ul>
       </nav>
     </div>
@@ -30,77 +43,166 @@
 
   <section class="page-title">
     <div class="wrap">
-      <h1>Trips &amp; Photos</h1>
-      <p>On the water and on the trail.</p>
+      <p class="kicker">On the water and on the trail</p>
+      <h1>Trips &amp; schedules</h1>
+      <p>Every trip is planned and led by a member. Pick one, call the leader, and come along.</p>
     </div>
   </section>
 
   <main>
-    <div class="wrap">
-      <section>
-        <h2>Recent trips</h2>
-        <p class="lead">Club members lead trips throughout the year across Missouri, Arkansas, and Kansas. Trips are planned at our Second Saturday meetings.</p>
-
-        <!--
-          To add a trip, copy this block into the grid below and edit it:
-
-          <article class="trip">
-            <p class="meta">Month YYYY &middot; Canoeing</p>
-            <h3>River or trail name</h3>
-            <p>A sentence or two about the trip. <a href="PHOTO-ALBUM-LINK">Photos</a></p>
+    <section class="band">
+      <div class="wrap">
+        <p class="kicker">Two schedules a year</p>
+        <h2>Far afield, and close to home.</h2>
+        <p class="lead narrow">Each year the club publishes two trip schedules, mailed with the newsletter in late winter. Between them there is something nearly every weekend from March through November, with meetings and the occasional winter outing in between.</p>
+        <div class="schedule-cards">
+          <article class="schedule-card">
+            <p class="sub">The Ozark schedule</p>
+            <h3>Weekends in the hills</h3>
+            <p>Float trips and campouts on the spring-fed rivers of southern Missouri and northern Arkansas, plus backpacking and multi-day paddles. Expect a Friday-night drive, a gravel-bar camp, and two days on the water.</p>
+            <ul>
+              <li>Canoe and kayak floats, one to several days</li>
+              <li>Backpacking and base-camp hikes</li>
+              <li>The annual river clean-up weekend</li>
+            </ul>
           </article>
-        -->
-        <div class="grid">
-          <article class="trip">
-            <p class="meta">Every year &middot; Conservation</p>
-            <h3>Blue River Clean-up</h3>
-            <p>Our annual Stream Team #41 clean-up on the Blue River in Kansas City. Bring gloves and boots &mdash; everyone is welcome.</p>
+          <article class="schedule-card alt">
+            <p class="sub">The Close-to-Home schedule</p>
+            <h3>Day trips around Kansas City</h3>
+            <p>Shorter outings that fit in a Saturday: paddles on nearby lakes and streams, bike rides on area trails, and local hikes. A good place to start if you are new to the club or new to paddling.</p>
+            <ul>
+              <li>Evening and day paddles near the metro</li>
+              <li>Rail-trail and back-road bike rides</li>
+              <li>Hikes within an easy drive of the city</li>
+            </ul>
           </article>
         </div>
-        <p class="note">More trip reports coming soon. Have one to share? Bring it to the next Second Saturday meeting.</p>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>Club photos</h2>
-        <p>Photos from club trips and events.</p>
-        <figure class="photo">
-          <img src="images/group-photo.jpg" alt="About thirty OWWC members of all ages posing together at a wooded campsite next to a tent" width="640" height="480">
-          <figcaption>The club at a campout.</figcaption>
-        </figure>
-        <!-- TODO: link to the club's shared photo albums (Google Photos, Flickr, Facebook, etc.) -->
-        <p class="note">More photo albums coming soon.</p>
-      </section>
+    <section class="band band-cream">
+      <div class="wrap">
+        <p class="kicker">How a trip works</p>
+        <h2>No experience required. Curiosity is.</h2>
+        <ol class="steps">
+          <li><strong>Pick a trip</strong><span>From the schedule, the newsletter, or an announcement at the Second Saturday meeting. Trips are rated so you know what you are getting into.</span></li>
+          <li><strong>Call the trip leader</strong><span>Every trip has a member in charge. They will tell you the plan, the meeting spot, and what to bring, and answer any questions.</span></li>
+          <li><strong>Sort out a boat</strong><span>Members often have a spare seat in a tandem canoe or a boat to lend. Ask. Outfitters on most Ozark rivers rent canoes and kayaks too.</span></li>
+          <li><strong>Show up and float</strong><span>Carpool from Kansas City, camp with the group, paddle at your own pace, and eat well. Bring a life jacket, dry bag, and a sense of humor.</span></li>
+        </ol>
+      </div>
+    </section>
 
-      <section>
-        <h2>Paddling resources</h2>
-        <div class="grid">
-          <div class="card">
-            <h3><a href="https://mostreamteam.org/">Missouri Stream Team</a></h3>
-            <p>The statewide volunteer program behind our Blue River monitoring.</p>
-          </div>
-          <div class="card gold">
-            <h3><a href="https://www.americanwhitewater.org/">American Whitewater</a></h3>
-            <p>National river conservation group co-founded by OWWC&rsquo;s Oz Hawksley.</p>
-          </div>
-          <div class="card maroon">
-            <h3><a href="https://waterdata.usgs.gov/state/missouri/">USGS River Levels</a></h3>
-            <p>Check current stream gauges before you go.</p>
+    <section class="band" id="upcoming">
+      <div class="wrap">
+        <p class="kicker">Coming up</p>
+        <h2>Next on the calendar</h2>
+        <p class="lead narrow">The full list lives in the newsletter and gets announced at each meeting. Here are the next few.</p>
+        <table class="trips">
+          <thead>
+            <tr><th scope="col">Date</th><th scope="col">Trip</th><th scope="col">Type</th><th scope="col">Notes</th></tr>
+          </thead>
+          <tbody>
+            <!-- Copy this row to add a trip:
+            <tr>
+              <td class="date">Sat, Apr 18</td>
+              <td>Niangua River, Bennett Spring to Prosperine</td>
+              <td class="type">Day float</td>
+              <td>Easy Class I. Meet 7 a.m. Call the trip leader to sign up.</td>
+            </tr>
+            -->
+            <tr>
+              <td class="date">Second Saturday</td>
+              <td>Monthly club meeting</td>
+              <td class="type">Meeting</td>
+              <td>Trip announcements, reports, and a program. <a href="index.html#meetings">Details</a></td>
+            </tr>
+            <tr>
+              <td class="date"><span class="tba">Date TBA</span></td>
+              <td>Annual river clean-up weekend</td>
+              <td class="type">Float &amp; campout</td>
+              <td>River to be announced at a meeting. <a href="conservation.html#cleanup">About the clean-up</a></td>
+            </tr>
+            <tr>
+              <td class="date"><span class="tba">Date TBA</span></td>
+              <td><span class="edit">Next scheduled trip (edit me)</span></td>
+              <td class="type">Float</td>
+              <td>See the current newsletter.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band band-cream" id="photos">
+      <div class="wrap">
+        <p class="kicker">Photos</p>
+        <h2>Proof that we actually go.</h2>
+        <div class="photo-strip">
+          <figure>
+            <img src="images/group-photo.jpg" alt="About thirty club members of all ages, many in green club shirts, posing together at a wooded campsite beside a tent" width="640" height="480">
+            <figcaption>The club at a summer campout.</figcaption>
+          </figure>
+          <div>
+            <p>Members share trip photos at meetings and in the newsletter. Online albums from recent trips will be linked here as they are added.</p>
+            <!-- Add album links like this:
+            <ul class="links">
+              <li><a href="ALBUM-URL">Current River, June</a><span>Photos by Jane D.</span></li>
+            </ul>
+            -->
+            <p><span class="tba">Album links coming soon</span></p>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <p class="kicker">Before you go</p>
+        <h2>Resources we actually use</h2>
+        <ul class="links">
+          <li><a href="https://waterdata.usgs.gov/state/missouri/">USGS Missouri stream gauges</a><span>Check levels and flows before a float.</span></li>
+          <li><a href="https://waterdata.usgs.gov/state/arkansas/">USGS Arkansas stream gauges</a><span>For the Buffalo and other Arkansas rivers.</span></li>
+          <li><a href="https://www.nps.gov/ozar/">Ozark National Scenic Riverways</a><span>Current and Jacks Fork river information and campgrounds.</span></li>
+          <li><a href="https://www.nps.gov/buff/">Buffalo National River</a><span>Conditions, access points, and floating guides.</span></li>
+          <li><a href="https://mdc.mo.gov/">Missouri Department of Conservation</a><span>Accesses, conservation areas, and the <em>Missouri Ozark Waterways</em> guidebook.</span></li>
+          <li><a href="https://mostreamteam.org/">Missouri Stream Team</a><span>The statewide volunteer program behind our Blue River work.</span></li>
+          <li><a href="https://www.americanwhitewater.org/">American Whitewater</a><span>River conservation and flow information; co-founded by Oz Hawksley.</span></li>
+          <li><a href="https://www.ozarksociety.net/">The Ozark Society</a><span>Our long-time partners in protecting the Buffalo River.</span></li>
+        </ul>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
+    <div class="wrap cols">
       <div>
-        <p><strong>Ozark Wilderness Waterways Club</strong></p>
-        <p>Kansas City, Missouri &middot; Established 1956</p>
-        <p>Missouri Stream Team #41</p>
+        <div class="brand-foot"><img src="images/owwc-pin.jpg" alt="" width="44" height="44"><b>Ozark Wilderness Waterways Club</b></div>
+        <p>A Kansas City club for canoeing, kayaking, hiking, backpacking, bicycling, and river conservation. Organized in 1956. Missouri Stream Team #41.</p>
       </div>
       <div>
-        <p><a href="index.html">Home</a> &middot; <a href="history.html">History</a> &middot; <a href="trips.html">Trips &amp; Photos</a></p>
-        <p>Meetings monthly on the second Saturday</p>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="trips.html">Trips &amp; schedules</a></li>
+          <li><a href="conservation.html">Conservation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <ul>
+          <li><a href="index.html#meetings">Second Saturday meetings</a></li>
+          <li><a href="index.html#join">Membership</a></li>
+          <li><a href="conservation.html#cleanup">Annual river clean-up</a></li>
+          <li><a href="https://mostreamteam.org/">Missouri Stream Team</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <div class="wrap">
+        <span>&copy; Ozark Wilderness Waterways Club, Kansas City, Missouri</span>
+        <span>owwckc.org</span>
       </div>
     </div>
   </footer>

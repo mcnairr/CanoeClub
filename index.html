@@ -3,26 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ozark Wilderness Waterways Club | Kansas City Canoe &amp; Outdoor Club</title>
-  <meta name="description" content="The Ozark Wilderness Waterways Club (OWWC) is a Kansas City paddling, outdoor, and conservation club, established in 1956. We meet the second Saturday of every month.">
-  <link rel="icon" href="images/owwc-pin.png">
+  <title>Ozark Wilderness Waterways Club | Kansas City Paddling &amp; Outdoor Club, Est. 1956</title>
+  <meta name="description" content="The Ozark Wilderness Waterways Club (OWWC) is a Kansas City canoe, kayak, hiking, and conservation club founded in 1956. We meet the second Saturday of every month and run trips across Missouri, Arkansas, and Kansas. Visitors welcome.">
+  <link rel="canonical" href="https://owwckc.org/">
+  <meta property="og:title" content="Ozark Wilderness Waterways Club">
+  <meta property="og:description" content="Kansas City's paddling and outdoor club since 1956. Canoe and kayak trips, hikes, bike rides, and an annual river clean-up. Visitors welcome at our Second Saturday meetings.">
+  <meta property="og:image" content="https://owwckc.org/images/group-photo.jpg">
+  <meta property="og:url" content="https://owwckc.org/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--
+  EDITING NOTES (for club members):
+  * Anything wrapped in <span class="edit"> is a detail to confirm or update
+    (meeting time, meeting place, dues). It shows a dotted underline on the site.
+    Delete the class="edit" once the detail is confirmed.
+  * Anything wrapped in <span class="tba"> is a visible "to be announced" chip.
+    Replace the whole span with the real information when you have it.
+-->
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="index.html">
-        <img src="images/owwc-pin.png" alt="">
-        <span>Ozark Wilderness<br>Waterways Club <small>Kansas City &middot; Est. 1956</small></span>
+        <img src="images/owwc-pin.jpg" alt="" width="46" height="46">
+        <span><span class="name">Ozark Wilderness Waterways Club</span><span class="tag">Kansas City &middot; Est. 1956</span></span>
       </a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="history.html">History</a></li>
-          <li><a href="trips.html">Trips &amp; Photos</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="conservation.html">Conservation</a></li>
+          <li><a class="btn" href="#meetings">Visit a meeting</a></li>
         </ul>
       </nav>
     </div>
@@ -31,80 +47,186 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow">Paddling the Ozarks since 1956</p>
-        <h1>Explore, enjoy, and protect Ozark streams.</h1>
-        <p>The Ozark Wilderness Waterways Club is a Kansas City&ndash;based club for people who love rivers, trails, and wild places. Join us on the water, on the trail, and at our monthly meetings.</p>
-        <a class="btn" href="#meetings">Come to a meeting</a>
-        <a class="btn btn-outline" href="trips.html">See recent trips</a>
+        <p class="kicker">Kansas City&rsquo;s paddling club</p>
+        <h1>Seventy years on <em>Ozark water.</em></h1>
+        <p>We are a club of families and friends who float, hike, bike, and camp together across Missouri, Arkansas, and Kansas, and who have spent every year since 1960 hauling trash out of the rivers we love.</p>
+        <div class="actions">
+          <a class="btn" href="#meetings">Come to a Second Saturday</a>
+          <a class="btn btn-ghost" href="trips.html">See how trips work</a>
+        </div>
       </div>
-      <img class="pin" src="images/owwc-pin.png" alt="OWWC club pin: an arrowhead with the letters O W W C over a canoe, reading Ozark Wilderness Waterways Club, Est. 1956">
+      <div class="hero-visual">
+        <figure class="frame">
+          <img src="images/group-photo.jpg" alt="About thirty club members of all ages, many in green club shirts, gathered at a wooded campsite" width="640" height="480">
+          <figcaption>Club campout</figcaption>
+        </figure>
+        <img class="pin" src="images/owwc-pin.jpg" alt="The OWWC club pin: an arrowhead over a canoe with the letters O W W C, established 1956" width="150" height="146">
+      </div>
     </div>
   </section>
 
-  <main>
+  <div class="stats" aria-label="Club at a glance">
     <div class="wrap">
-      <section>
-        <h2>What we do</h2>
-        <p class="lead">OWWC members organize and share group trips across Missouri, Arkansas, and Kansas &mdash; and work to keep our local waters clean for the next generation of paddlers.</p>
-        <div class="grid">
-          <div class="card">
-            <h3>Canoeing &amp; Kayaking</h3>
-            <p>Float trips on classic Ozark streams and rivers, from relaxed family floats to whitewater runs.</p>
+      <div class="stat"><b>1956</b><span>Organized in Kansas City by families who floated together</span></div>
+      <div class="stat"><b>100+</b><span>Member families and individuals</span></div>
+      <div class="stat"><b>#41</b><span>One of Missouri&rsquo;s first Stream Teams, formed 1989</span></div>
+      <div class="stat"><b>1960</b><span>The year our annual river clean-up began</span></div>
+    </div>
+  </div>
+
+  <main>
+    <section class="band">
+      <div class="wrap split">
+        <div class="sticky">
+          <p class="kicker">Why we exist</p>
+          <p class="mission">To explore and enjoy the wilderness waterways of the Ozarks, to share that experience with others, and to leave the streams better than we found them.</p>
+          <p>The club was organized in 1956 by families who had been canoeing together on Ozark streams and felt that someone ought to help keep those streams wild. That is still the whole idea. Trips are led by members, planned at our monthly meetings, and open to everyone from first-timers to lifelong paddlers.</p>
+        </div>
+        <ul class="activities">
+          <li>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 30c6 4 34 4 40 0"/><path d="M6 30c0 4 8 7 18 7s18-3 18-7"/><path d="M30 8 18 32"/><path d="M28 6c4-1 7 2 6 6l-6-2z" fill="currentColor"/></svg>
+            <div><h3>Canoeing &amp; kayaking</h3><p>Spring-fed Ozark floats, multi-day river camps, and easy day paddles close to home.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 38 18 14l8 12 5-6 13 18z"/><path d="M4 38h40"/><circle cx="36" cy="12" r="4"/></svg>
+            <div><h3>Hiking &amp; backpacking</h3><p>Day hikes around the metro and overnight trips into the Ozark hills.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="32" r="8"/><circle cx="36" cy="32" r="8"/><path d="M12 32 20 16h10l6 16M20 16l-4-6h6M24 32l6-16"/></svg>
+            <div><h3>Bicycling</h3><p>Group rides on rail-trails and quiet back roads.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 6s12 13 12 22a12 12 0 0 1-24 0C12 19 24 6 24 6z"/><path d="M18 30a6 6 0 0 0 6 6"/></svg>
+            <div><h3>Conservation</h3><p>Water-quality monitoring on the Blue River as Missouri Stream Team #41, and a river clean-up every year. <a href="conservation.html">More about our conservation work</a></p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="band band-cream">
+      <div class="wrap">
+        <p class="kicker">A year with the club</p>
+        <h2>There is always something on the calendar.</h2>
+        <div class="seasons">
+          <div class="season">
+            <p class="when">Winter</p>
+            <h3>Plans and programs</h3>
+            <p>Meetings carry on through the cold months with slide shows, trip reports, and planning. The year&rsquo;s trip schedules go out with the newsletter, usually in February or March.</p>
           </div>
-          <div class="card gold">
-            <h3>Hiking &amp; Backpacking</h3>
-            <p>Day hikes and overnight backpacking trips in the Ozarks and around the region.</p>
+          <div class="season">
+            <p class="when">Spring</p>
+            <h3>High water, first floats</h3>
+            <p>Ozark streams run full and clear. Weekend floats and campouts start, along with early-season hikes before the leaves close in.</p>
           </div>
-          <div class="card maroon">
-            <h3>Bicycling</h3>
-            <p>Group rides on trails and back roads, including Missouri&rsquo;s rail-trails.</p>
+          <div class="season">
+            <p class="when">Summer</p>
+            <h3>Floats and the clean-up</h3>
+            <p>Multi-day river trips, family campouts, and the annual clean-up weekend, when we fill canoes with whatever doesn&rsquo;t belong in the river.</p>
           </div>
-          <div class="card">
-            <h3>Conservation</h3>
-            <p>As Missouri Stream Team #41, we monitor water quality on the Blue River and host annual stream clean-ups.</p>
+          <div class="season">
+            <p class="when">Fall</p>
+            <h3>Color on the water</h3>
+            <p>The best floating of the year: cool mornings, empty gravel bars, and bluffs lit up with color. Backpacking and bike rides fill the gaps.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <figure class="photo">
-        <img src="images/group-photo.jpg" alt="About thirty OWWC members of all ages, many in matching green club shirts, posing together at a wooded campsite next to a tent" width="640" height="480">
-        <figcaption>OWWC members at a club campout.</figcaption>
-      </figure>
+    <section class="band-navy rivers">
+      <div class="wrap">
+        <p class="kicker">Streams in our logbook</p>
+        <ul>
+          <li>Current</li><li>Jacks Fork</li><li>Eleven Point</li><li>Buffalo</li><li>Niangua</li><li>North Fork</li><li>Black</li><li>Blue</li>
+        </ul>
+        <p>Rivers the club has floated and cleaned over the decades, from the national riverways of the eastern Ozarks to the Blue River running through Kansas City.</p>
+      </div>
+    </section>
 
-      <section class="mission" aria-labelledby="mission-heading">
-        <h2 id="mission-heading">Our Mission</h2>
-        <p>To explore and enjoy the wilderness waterways of the Ozarks and beyond, to share that experience with others, and to preserve and protect our streams and wild places for future generations.</p>
-      </section>
+    <section class="band" id="meetings">
+      <div class="wrap">
+        <div class="placard">
+          <div>
+            <p class="kicker">Meet us in person</p>
+            <h2>Second Saturday, every month</h2>
+            <p class="big">Visitors are always welcome. No boat required.</p>
+            <dl class="details">
+              <dt>When</dt>
+              <dd>The second Saturday of each month, <span class="edit">6:30 p.m.</span></dd>
+              <dt>Where</dt>
+              <dd><span class="edit">Camp Lake of the Woods dining hall, Swope Park, Kansas City, Missouri</span></dd>
+              <dt>Cost</dt>
+              <dd>Free. Just show up and say hello.</dd>
+            </dl>
+            <p class="fine">Meeting time and place occasionally change for holidays or special events. If it is your first visit, confirm the details in the current newsletter or <a href="#join">drop us a line</a>.</p>
+          </div>
+          <aside>
+            <h3>What a meeting looks like</h3>
+            <ul>
+              <li>Upcoming trips announced and sign-ups taken</li>
+              <li>Reports and photos from recent trips</li>
+              <li>A short program: a river, a destination, a skill, or a guest speaker</li>
+              <li>Conservation news and clean-up planning</li>
+              <li>Time to meet the people you will be floating with</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
 
-      <section class="meeting" id="meetings">
-        <h2>Second Saturdays</h2>
-        <p>The club meets <strong>monthly on the second Saturday</strong>. Meetings are where we plan trips, share stories and photos, and welcome new members. Visitors are always welcome &mdash; <a href="#contact">get in touch</a> for the current meeting location and time.</p>
-      </section>
-
-      <section>
-        <h2>Stream Team #41: The Blue River</h2>
-        <p>Since joining the Missouri Stream Team program, OWWC has adopted the Blue River in Kansas City as Stream Team #41. Volunteers collect water-quality data, watch for changes in the stream, and turn out each year for a clean-up to haul trash out of the river. It&rsquo;s a hands-on way to give back to the waters we love to paddle &mdash; and a great way to meet club members.</p>
-      </section>
-
-      <section id="contact">
-        <h2>Join us</h2>
-        <p>New members of all experience levels are welcome. The best way to get started is to come to a Second Saturday meeting or join a trip.</p>
-        <!-- TODO: add the club's contact email and/or social media links below -->
-        <p class="note">Contact information coming soon.</p>
-      </section>
-    </div>
+    <section class="band band-navy join" id="join">
+      <div class="wrap">
+        <div>
+          <p class="kicker">Join the club</p>
+          <h2>Membership is simple and inexpensive.</h2>
+          <p>Dues cover a family or an individual for the calendar year and bring the monthly newsletter and both trip schedules to your mailbox or inbox. The easiest way to join is to come to a meeting; you can also join on any trip.</p>
+          <p>Questions? <span class="tba">Club email coming soon</span></p>
+          <!-- When the club has a public email address, replace the line above with:
+               <p>Questions? Email <a href="mailto:ADDRESS">ADDRESS</a>.</p> -->
+        </div>
+        <div class="card">
+          <h3>Annual dues</h3>
+          <p class="price"><span class="edit">$25</span> <small>per year, family or individual</small></p>
+          <ul>
+            <li>Monthly newsletter</li>
+            <li>The Ozark schedule and the Close-to-Home schedule</li>
+            <li>Member-led trips all year</li>
+            <li>A part in keeping Ozark streams wild</li>
+          </ul>
+          <a class="btn" href="#meetings">Come to a meeting</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
+    <div class="wrap cols">
       <div>
-        <p><strong>Ozark Wilderness Waterways Club</strong></p>
-        <p>Kansas City, Missouri &middot; Established 1956</p>
-        <p>Missouri Stream Team #41</p>
+        <div class="brand-foot"><img src="images/owwc-pin.jpg" alt="" width="44" height="44"><b>Ozark Wilderness Waterways Club</b></div>
+        <p>A Kansas City club for canoeing, kayaking, hiking, backpacking, bicycling, and river conservation. Organized in 1956. Missouri Stream Team #41.</p>
       </div>
       <div>
-        <p><a href="index.html">Home</a> &middot; <a href="history.html">History</a> &middot; <a href="trips.html">Trips &amp; Photos</a></p>
-        <p>Meetings monthly on the second Saturday</p>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="trips.html">Trips &amp; schedules</a></li>
+          <li><a href="conservation.html">Conservation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <ul>
+          <li><a href="index.html#meetings">Second Saturday meetings</a></li>
+          <li><a href="index.html#join">Membership</a></li>
+          <li><a href="conservation.html#cleanup">Annual river clean-up</a></li>
+          <li><a href="https://mostreamteam.org/">Missouri Stream Team</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <div class="wrap">
+        <span>&copy; Ozark Wilderness Waterways Club, Kansas City, Missouri</span>
+        <span>owwckc.org</span>
       </div>
     </div>
   </footer>
