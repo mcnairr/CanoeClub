@@ -3,3 +3,7 @@
 incoming/*
 !incoming/.gitkeep
 archive/
+
+# Google Drive sync scratch folders (Drive backs up the private files above).
+.tmp.driveupload/
+.tmp.drivedownload/

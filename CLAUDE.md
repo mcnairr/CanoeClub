@@ -19,7 +19,10 @@ Everything committed to this repo is public, including Markdown files like this 
 5. **Meeting naming.** The monthly events are **Club Meetings** (potluck, then business meeting), held on the second
    Saturday of the month. Call them club meetings; the second Saturday is when they happen, not their name.
    Don't write "Second Saturday meetings."
-6. Private source files (newsletters, calendars, minutes) are never committed: `incoming/` and `archive/` are git-ignored.
+6. **Neutral on where members live.** Do not frame trips or members by distance from Kansas City: no "Close to Home"
+   or "Ozark" tags on calendar events, no "around the metro" or "carpool from Kansas City". The club meets in Kansas City,
+   and that fact can be stated. History items may keep historical names such as "the Close-to-Home group".
+7. Private source files (newsletters, calendars, minutes) are never committed: `incoming/` and `archive/` are git-ignored.
 
 ## Processing new information
 Follow [docs/processing-incoming.md](docs/processing-incoming.md) whenever files appear in `incoming/`.

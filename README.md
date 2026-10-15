@@ -6,7 +6,7 @@ Static site for the Ozark Wilderness Waterways Club (OWWC), Kansas City, hosted 
 - `index.html` — Home: what the club does, a year on the calendar, the monthly club meeting, membership
 - `history.html` — Founding in 1956, Oz Hawksley, river-protection milestones, timeline
 - `past.html` — OWWC Past archive: every "OWWC Past" newsletter item, year by year; grows with each issue
-- `trips.html` — The club calendar (Ozark and Close-to-Home trips), how a trip works, upcoming trips, photos, resources
+- `trips.html` — The club calendar (day trips and multi-day trips), how a trip works, upcoming trips, photos, resources
 - `conservation.html` — The annual river clean-up (since 1960) and Missouri Stream Team #41 on the Blue River
 - `newsletter.html` — The latest monthly newsletter only (calendar, trip recaps, "OWWC Past"); back issues stay in the members-only Google Drive
 - `404.html` — Friendly not-found page for old links
