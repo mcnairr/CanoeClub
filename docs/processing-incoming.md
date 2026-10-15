@@ -45,7 +45,8 @@ Work through every page, not just the obvious one.
 **OWWC Past (the monthly history column), from every newsletter, old or new:**
 - Add each item to `past.html` under its decade, in year order, then month order within a year, with the
   month in `<strong>`. Add the issue to the "Compiled from" line at the bottom.
-- Rewrite each item without member names ("a member", "a family crew", "two members").
+- Items about events 20 or more years ago keep people's names as the column gives them. Rewrite more recent
+  items without member names ("a member", "a family crew", "two members").
 - If an item is a real milestone (a clean-up record, an anniversary, a first), also add it to the timeline
   on `history.html`, and to its prose if it says something about the club's traditions.
 
@@ -63,9 +64,9 @@ if they do, stop and ask the maintainer.
 Run from the repo root:
 
 ```sh
-# Nothing should match. (Allowed: owwckc@gmail.com. CLAUDE.md names the group host only in its rule text.)
-grep -nEi 'groups\.io|[0-9]{3}[-. )]+[0-9]{3}[-. ][0-9]{4}|@(hotmail|yahoo|aol|outlook|icloud|comcast)\.' -- *.html
-grep -nEi '[[:alnum:]_.+-]@groups\.io|groups\.io/|[0-9]{3}[-. )]+[0-9]{3}[-. ][0-9]{4}' -- *.md docs/*.md
+# Nothing should match. (Allowed: owwckc@gmail.com. CLAUDE.md names the blocked services only in its rule text.)
+grep -nEi 'groups\.google|mailchimp|list-manage|groups\.io|meetup\.com|constantcontact|[0-9]{3}[-. )]+[0-9]{3}[-. ][0-9]{4}|@(hotmail|yahoo|aol|outlook|icloud|comcast)\.' -- *.html
+grep -nEi '[[:alnum:]_.+-]@(googlegroups|groups\.io|meetup)|(groups\.google\.com|list-manage\.com|groups\.io|meetup\.com)/|[0-9]{3}[-. )]+[0-9]{3}[-. ][0-9]{4}' -- *.md docs/*.md
 grep -n 'Second Saturday' -- *.html
 git status --short   # no files from incoming/ or archive/ should appear
 ```

@@ -4,18 +4,21 @@ Static HTML site for the Ozark Wilderness Waterways Club, served by GitHub Pages
 Everything committed to this repo is public, including Markdown files like this one.
 
 ## Content rules (apply to every page and every committed file)
-1. **No links to the members' group site.** Do not put the club's mailing-list group URL, or anything a bot or
-   person could use to find it, on the website or in any committed file. No `@groups.io` email addresses.
-   Members receive the group link when they join. Say "the members' mailing list" if it must be mentioned at all.
+1. **No links to the members' group or mailing-list services.** Do not put a URL, a link, or an email address for
+   any group-membership or email-list service on the website or in any committed file. Blocked: Google Groups
+   (groups.google.com), Mailchimp (mailchimp.com, list-manage.com), groups.io, Meetup (meetup.com), and
+   Constant Contact (constantcontact.com), plus any address `@` those domains. Members receive the group link when
+   they join. Say "the members' mailing list" if it must be mentioned at all.
 2. **No phone numbers.** None, for anyone, including the club.
 3. **One public contact: `owwckc@gmail.com`.** Use it for every point of contact (questions, joining, trip
    proposals, archive access). Never publish personal email addresses.
-4. **No current member names.** Say "the trip coordinator", "a member", "the club". Exceptions already on the
-   site: founder Oz Hawksley, and people quoted in published sources (e.g. *Missouri Conservationist*, Ray Heady's book).
-   When adding "OWWC Past" history items, rewrite them without names.
-5. **Meeting naming.** The monthly event is the **club meeting** (potluck, then business meeting). It is held on the
-   second Saturday; mention that as the schedule, not as the event's name. Don't write "Second Saturday meetings."
-   By contrast, Kansas City Crossroads **First Fridays** is the event's actual name; call it First Fridays.
+4. **No current member names.** Say "the trip coordinator", "a member", "the club". Exceptions: history from
+   20 or more years ago may name people as the source does (e.g. "OWWC Past" items for 2006 and earlier, as of 2026);
+   founder Oz Hawksley; and people quoted in published sources (e.g. *Missouri Conservationist*, Ray Heady's book).
+   History items from the last 20 years are rewritten without names.
+5. **Meeting naming.** The monthly events are **Club Meetings** (potluck, then business meeting), held on the second
+   Saturday of the month. Call them club meetings; the second Saturday is when they happen, not their name.
+   Don't write "Second Saturday meetings."
 6. Private source files (newsletters, calendars, minutes) are never committed: `incoming/` and `archive/` are git-ignored.
 
 ## Processing new information

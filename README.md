@@ -11,7 +11,7 @@ Static site for the Ozark Wilderness Waterways Club (OWWC), Kansas City, hosted 
 - `newsletter.html` — The latest monthly newsletter only (calendar, trip recaps, "OWWC Past"); back issues stay in the members-only Google Drive
 - `404.html` — Friendly not-found page for old links
 - `css/style.css` — shared styles (colors from the club pin, Fraunces + Source Sans 3 from Google Fonts)
-- `images/` — club pin, group photo, 2026 trip photos from the newsletter, favicon, contour-line background
+- `images/` — club logo (`owwc-logo.webp`, header/footer/404), club pin photo, group photo, 2026 trip photos from the newsletter, favicon, contour-line background
 - `CNAME` — primary custom domain (`owwckc.org`)
 
 ## Rules and procedures
@@ -49,7 +49,9 @@ Search the HTML for `class="edit"` (dotted underline on the site: a detail to co
 
 Meeting time (potluck 6:30 p.m., meeting 7:30 p.m.) and place (Camp Lake of the Woods dining hall, 5700 Oakwood Rd.) were confirmed from the October 2026 newsletter.
 
-**Privacy:** see [CLAUDE.md](CLAUDE.md). In short: no member names, no phone numbers, no personal email addresses, and no links to the members' group. Refer to "the trip coordinator"; members get contact details in the emailed newsletter. The public contact is owwckc@gmail.com.
+**Phone numbers are purposefully left off the website**, for everyone, including the club. Contact goes through owwckc@gmail.com; members get coordinators' phone numbers in the emailed newsletter.
+
+**Privacy:** see [CLAUDE.md](CLAUDE.md). In short: no current member names, no phone numbers, no personal email addresses, and no links to the members' group or mailing-list services. Refer to "the trip coordinator"; members get contact details in the emailed newsletter. The public contact is owwckc@gmail.com.
 
 Once a detail is confirmed, delete the `class="edit"` so the dotted underline goes away.
 
