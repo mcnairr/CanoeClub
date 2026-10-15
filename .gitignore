@@ -1,0 +1,5 @@
+# Private source material: never published (the repo is served by GitHub Pages).
+# See docs/processing-incoming.md.
+incoming/*
+!incoming/.gitkeep
+archive/
