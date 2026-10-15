@@ -310,6 +310,13 @@ table.trips th { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: upp
 table.trips tr:last-child td { border-bottom: 0; }
 table.trips td.date { white-space: nowrap; font-weight: 700; color: var(--navy-deep); }
 table.trips td.type { color: var(--muted); font-size: 0.92rem; }
+.pill { display: block; width: fit-content; margin-bottom: 0.3rem; padding: 0.12rem 0.65rem; border-radius: 999px; font-size: 0.74rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+.pill-paddle { background: #d9e7f7; color: #163f78; }
+.pill-hike { background: #e2edd3; color: #355417; }
+.pill-service { background: #f4ddd6; color: var(--maroon); }
+.pill-social { background: var(--gold-pale); color: #6e5212; }
+.pill-meeting { background: var(--navy); color: var(--white); }
+.pill-members { background: #ebe7dc; color: var(--muted); }
 
 .steps { counter-reset: step; list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.5rem; }
 .steps li { counter-increment: step; padding-top: 0.5rem; border-top: 2px solid var(--gold); }
