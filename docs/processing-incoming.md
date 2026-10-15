@@ -37,7 +37,7 @@ Work through every page, not just the obvious one.
 **A new monthly newsletter** (only when it is newer than the issue on `newsletter.html`):
 - `newsletter.html`: replace the whole issue (title and date, greeting, calendar, recaps, OWWC Past).
   This page always holds only the latest issue.
-- `trips.html` → Coming up: rebuild from the newsletter calendar. Drop events whose dates have passed.
+- `trips.html` → Coming up: no event list here; it just links to the calendar on `newsletter.html`.
 - `index.html`, `conservation.html`, `history.html`: refresh any facts the issue changes (clean-up river and
   dates, the clean-up count, Stream Team testing dates, meeting place and times, dues, trip examples).
 - Trip photos: save resized copies (about 640 px wide, JPEG) into `images/` and use them in the recaps.
@@ -50,7 +50,7 @@ Work through every page, not just the obvious one.
 - If an item is a real milestone (a clean-up record, an anniversary, a first), also add it to the timeline
   on `history.html`, and to its prose if it says something about the club's traditions.
 
-**Calendars:** update the Coming up table on `trips.html` and the trip examples on `index.html` and
+**Calendars:** update the calendar on `newsletter.html` and the trip examples on `index.html` and
 `trips.html`. Keep calendar rows free of coordinator names, phone numbers, and emails.
 
 **Meeting minutes:** until a minutes page exists, file them and pull only public facts (new trips, clean-up

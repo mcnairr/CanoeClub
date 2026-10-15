@@ -62,6 +62,8 @@ h3 { font-size: 1.3rem; }
 }
 .kicker::before { content: ""; width: 2rem; height: 2px; background: currentColor; }
 .band-navy .kicker, .hero .kicker, .page-title .kicker { color: var(--gold); }
+h2.kicker { font-size: 1.15rem; letter-spacing: 0.12em; }
+h2.kicker::before { width: 2.5rem; height: 3px; }
 
 /* Buttons */
 .btn {
