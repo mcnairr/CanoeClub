@@ -222,6 +222,8 @@ dl.details dd { margin: 0; }
 .placard aside h3 { font-size: 1.05rem; margin-bottom: 0.5rem; }
 .placard aside ul { margin: 0; padding-left: 1.1rem; color: var(--muted); }
 .placard aside li { margin-bottom: 0.35rem; }
+.placard .meeting-map { display: block; margin-top: 1rem; }
+.placard .meeting-map img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.12); }
 .placard .fine { font-size: 0.92rem; color: var(--muted); margin: 0; }
 
 /* Placeholders for humans to edit. The dotted rule is intentional: it marks
