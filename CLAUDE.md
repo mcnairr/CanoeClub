@@ -29,4 +29,5 @@ Follow [docs/processing-incoming.md](docs/processing-incoming.md) whenever files
 
 ## Deploying
 Committing straight to `main` and pushing is approved; the site redeploys automatically and the maintainer
-checks the live site. Rollback = `git revert` the commit and push (or re-run the Pages deploy).
+checks the live site. When `css/style.css` changes, update the `?v=` date on its `<link>` in every page so
+browsers don't keep a stale cached copy. Rollback = `git revert` the commit and push (or re-run the Pages deploy).
